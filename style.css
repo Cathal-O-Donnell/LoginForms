@@ -1,0 +1,120 @@
+body {
+  background-image: url("images/forest.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  max-width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+/* Login Form */
+
+.login-container {
+  min-height: 480px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-heading {
+  line-height: 160px;
+  font-size: 30px;
+  font-family: inherit;
+  color:#595959;
+  font-weight: 100;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-icon {
+    padding: 10px;
+    color: #0d0d0d;
+    min-width: 50px;
+    text-align: center;
+    border-bottom: 1px solid #1fe0ba;
+}
+
+.input-field {
+    width: 100%;
+    display: block;
+  	border: none;
+  	border-bottom: 1px solid #1fe0ba;
+  	background-color: transparent;
+
+  	font-size: 15px;
+    font-family: inherit;
+}
+
+.input-field:focus {
+    box-shadow: none;
+  	outline: none;
+}
+
+.btn-main {
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  width: 200px;
+  color: white;
+  margin: 0 auto;
+}
+
+.btn-login {
+  background: #1fe0ba;
+}
+
+.btn-register {
+  margin-top: 10px;
+  background: #13C4D3;
+}
+
+.btn-main:hover {
+  -webkit-transform: translateY(-2px);
+  box-shadow: 0 3px 3px 0 rgba(166, 166, 166, 0.6);
+}
+
+.btn-main:focus {
+  outline: none;
+}
+
+.rememberMe-label {
+  font-family: inherit;
+  font-size: 14px;
+  color: #595959;
+  margin-left: 5px;
+}
+
+.login-link {
+  font-family: inherit;
+  font-size: : 14px;
+  color: #595959;
+}
+
+  .login-link:hover{
+    text-decoration: none;
+    color:#595959;
+  }
+
+  .login-link:visited{
+    text-decoration: none;
+    color:#595959;
+  }
+
+  .login-link:active{
+    text-decoration: none;
+    color:#595959;
+  }
+
+  .login-link:focus{
+    text-decoration: none;
+    color:#595959;
+  }
